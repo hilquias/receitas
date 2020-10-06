@@ -10,19 +10,19 @@ title: Bolo de Cenoura com calda de Cacau
 
 #### Ingredientes
 
-- 1 xícara (chá) de Açúcar
-- 1 Cenoura Grande
-- 3/2 xícara (chá) de Farinha de Trigo com Fermento
-- 2 Ovos
-- 1/2 xícara (chá) de Água
-- 1/4 xícara (chá) de Óleo
+-   1 xícara (chá) de Açúcar
+-   1 Cenoura Grande
+-   3/2 xícara (chá) de Farinha de Trigo com Fermento
+-   2 Ovos
+-   1/2 xícara (chá) de Água
+-   1/4 xícara (chá) de Óleo
 
 ###### Calda
 
-- 1 xícara (chá) de Açúcar
-- 3 colheres (sopa) de Cacau
-- 1 xícara (chá) de Água ou Leite
-- 2 colheres (sopa) de Manteiga
+-   1 xícara (chá) de Açúcar
+-   3 colheres (sopa) de Cacau
+-   1 xícara (chá) de Água ou Leite
+-   2 colheres (sopa) de Manteiga
 
 #### Modo de Preparo
 

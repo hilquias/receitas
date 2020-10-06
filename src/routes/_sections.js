@@ -1,1 +1,1 @@
-export { default as default } from '../../static/content/sections.js';
+export { default } from '../../static/content/sections.js';

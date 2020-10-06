@@ -20,7 +20,10 @@ export default function get_recipes(dir) {
 
             key = parseInt(key);
 
-            const markdown = fs.readFileSync(`static/content/${dir}/${file}`, 'utf-8');
+            const markdown = fs.readFileSync(
+                `static/content/${dir}/${file}`,
+                'utf-8'
+            );
 
             const { content, metadata } = extract_frontmatter(markdown);
 
