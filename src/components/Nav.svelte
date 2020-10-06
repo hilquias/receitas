@@ -1,5 +1,7 @@
 <script>
     export let segment;
+
+    export let sections;
 </script>
 
 <style>
@@ -48,21 +50,15 @@
     }
 </style>
 
-<nav>
-    <ul>
-        <li>
+<header>
+    <h1>Receitas</h1>
+    <nav>
+        {#each sections as section, i (section.slug)}
             <a
-                aria-current="{segment === undefined ? 'page' : undefined}"
-                href=".">home</a>
-        </li>
-        <li>
-            <a
-                aria-current="{segment === 'about' ? 'page' : undefined}"
-                href="about">about</a>
-        </li>
-
-        <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-        <li><a rel=prefetch aria-current="{segment === 'blog' ? 'page' : undefined}" href="blog">blog</a></li>
-    </ul>
-</nav>
+                rel="prefetch"
+                aria-current="{segment === section.slug ? 'page' : undefined}"
+                href="{section.slug}">{section.name}</a>
+            {#if i + 1 !== sections.length}<span>/</span>{/if}
+        {/each}
+    </nav>
+</header>
